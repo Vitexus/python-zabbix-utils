@@ -1,0 +1,15 @@
+Package: python3-zabbix-utils
+Source: python-zabbix-utils
+Version: 2.0.4-1
+Architecture: all
+Maintainer: Vítězslav Dvořák <info@vitexsoftware.cz>
+Installed-Size: 135
+Depends: python3:any
+Section: python
+Priority: optional
+Homepage: https://github.com/zabbix/python-zabbix-utils
+Description: Zabbix utilities for Python
+ Python utilities for Zabbix monitoring system integration.
+ Provides tools and libraries for working with Zabbix API and protocols.
+ .
+ This package provides the Python 3 library.

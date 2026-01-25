@@ -1,0 +1,25 @@
+Source: python-zabbix-utils
+Section: python
+Priority: optional
+Maintainer: Vítězslav Dvořák <info@vitexsoftware.cz>
+Build-Depends:
+ debhelper-compat (= 13),
+ dh-python,
+ python3-all,
+ python3-setuptools,
+Standards-Version: 4.7.0
+Homepage: https://github.com/zabbix/python-zabbix-utils
+Vcs-Git: https://github.com/zabbix/python-zabbix-utils.git
+Vcs-Browser: https://github.com/zabbix/python-zabbix-utils
+Rules-Requires-Root: no
+
+Package: python3-zabbix-utils
+Architecture: all
+Depends:
+ ${misc:Depends},
+ ${python3:Depends},
+Description: Zabbix utilities for Python
+ Python utilities for Zabbix monitoring system integration.
+ Provides tools and libraries for working with Zabbix API and protocols.
+ .
+ This package provides the Python 3 library.
